@@ -1,13 +1,102 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif;
 }
+.card-image {
+  width: 180px;
+  height: 240px;
+  border-radius: 10px;
+}
+.card-state {
+  position: absolute;
+  bottom: 340px;
+  left: 7px;
+  width: 61px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+.card-state-text {
+  width: 49px;
+  height: 11px;
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 110%;
+  color: #222222;
+}
+.card-text-content {
+  display: flex;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  align-items: center;
+}
+.star-logo {
+  width: 14px;
+  height: 14px;
+}
+.rank {
+  width: 18px;
+  height: 14px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  color: #222222;
+}
+.comments {
+  width: 25px;
+  height: 14px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  color: #918e9b;
+}
+.point {
+  width: 2px;
+  height: 2px;
+
+  background: #918e9b;
+}
+.country {
+  width: 23px;
+  height: 14px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+
+  color: #918e9b;
+}
+.card-comment {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  color: #222222;
+}
+.card-price {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 110%;
+  color: #222222;
+}
+.card--badge {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  background-color: white;
+  padding: 3px 7px;
+  border-radius: 4px;
+  font-weight: bold;
 }
